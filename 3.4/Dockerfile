@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 MAINTAINER Lojas Colombo "projetos-site@colombo.com.br"
 
-ENV ZOOKEEPER_VERSION="3.4.9"
+ENV ZOOKEEPER_VERSION "3.4.9"
 ENV ZOOKEEPER_RELEASE zookeeper-${ZOOKEEPER_VERSION}
 ENV ZOOKEEPER_URL_DOWNLOAD https://archive.apache.org/dist/zookeeper/${ZOOKEEPER_RELEASE}/${ZOOKEEPER_RELEASE}.tar.gz
 
